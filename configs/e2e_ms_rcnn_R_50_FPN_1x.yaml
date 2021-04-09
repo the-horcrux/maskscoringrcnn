@@ -1,7 +1,7 @@
 MODEL:
   META_ARCHITECTURE: "GeneralizedRCNN"
   WEIGHT: "catalog://ImageNetPretrained/MSRA/R-50"
-  PRETRAINED_MODELS: 'pretrained_models'
+  PRETRAINED_MODELS: "pretrained_models"
   BACKBONE:
     CONV_BODY: "R-50-FPN"
     OUT_CHANNELS: 256
@@ -31,8 +31,8 @@ MODEL:
   MASK_ON: True
   MASKIOU_ON: True
 DATASETS:
-  TRAIN: ("coco_2014_train", "coco_2014_valminusminival")  
-  TEST: ("coco_2014_minival",)
+  TRAIN: ("coco_2014_train", "coco_2014_val")
+  TEST: ("coco_2014_test",)
 DATALOADER:
   SIZE_DIVISIBILITY: 32
 SOLVER:
