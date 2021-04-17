@@ -50,7 +50,7 @@ def get_extensions():
             include_dirs=include_dirs,
             define_macros=define_macros,
             extra_compile_args=extra_compile_args,
-            extra_link_args=['-L/usr/lib/x86_64-linux-gnu/'] 
+            extra_link_args=['-L/usr/lib/x86_64-linux-gnu/']
         )
     ]
 
@@ -64,7 +64,7 @@ setup(
     url="https://github.com/facebookresearch/maskrcnn-benchmark",
     description="object detection in pytorch",
     packages=find_packages(exclude=("configs", "tests",)),
-    # install_requires=requirements,
+    install_requires=requirements,
     ext_modules=get_extensions(),
     cmdclass={"build_ext": torch.utils.cpp_extension.BuildExtension},
 )

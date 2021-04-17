@@ -2,12 +2,9 @@ INSTALL.md
 LICENSE
 README.md
 setup.py
-/content/maskscoring_rcnn/maskrcnn_benchmark/csrc/vision.cpp
-/content/maskscoring_rcnn/maskrcnn_benchmark/csrc/cpu/ROIAlign_cpu.cpp
-/content/maskscoring_rcnn/maskrcnn_benchmark/csrc/cpu/nms_cpu.cpp
-/content/maskscoring_rcnn/maskrcnn_benchmark/csrc/cuda/ROIAlign_cuda.cu
-/content/maskscoring_rcnn/maskrcnn_benchmark/csrc/cuda/ROIPool_cuda.cu
-/content/maskscoring_rcnn/maskrcnn_benchmark/csrc/cuda/nms.cu
+/home/kyra/Major Project/maskscoringrcnn/maskrcnn_benchmark/csrc/vision.cpp
+/home/kyra/Major Project/maskscoringrcnn/maskrcnn_benchmark/csrc/cpu/ROIAlign_cpu.cpp
+/home/kyra/Major Project/maskscoringrcnn/maskrcnn_benchmark/csrc/cpu/nms_cpu.cpp
 configs/e2e_faster_rcnn_R_101_FPN_1x.yaml
 configs/e2e_faster_rcnn_R_50_C4_1x.yaml
 configs/e2e_faster_rcnn_R_50_FPN_1x.yaml

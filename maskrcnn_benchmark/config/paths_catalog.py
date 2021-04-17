@@ -89,5 +89,6 @@ class ModelCatalog(object):
         model_name = "{}.yaml".format(model_name)
         signature = ModelCatalog.C2_DETECTRON_MODELS[name]
         unique_name = ".".join([model_name, signature])
-        url = "/".join([prefix, model_id, "12_2017_baselines", unique_name, suffix])
+        url = "/".join([prefix, model_id, "12_2017_baselines",
+                       unique_name, suffix])
         return url
