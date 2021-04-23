@@ -2,16 +2,15 @@ INSTALL.md
 LICENSE
 README.md
 setup.py
-/home/kyra/Major Project/maskscoringrcnn/maskrcnn_benchmark/csrc/vision.cpp
-/home/kyra/Major Project/maskscoringrcnn/maskrcnn_benchmark/csrc/cpu/ROIAlign_cpu.cpp
-/home/kyra/Major Project/maskscoringrcnn/maskrcnn_benchmark/csrc/cpu/nms_cpu.cpp
-/home/kyra/Major Project/maskscoringrcnn/maskrcnn_benchmark/csrc/cuda/ROIAlign_cuda.cu
-/home/kyra/Major Project/maskscoringrcnn/maskrcnn_benchmark/csrc/cuda/ROIPool_cuda.cu
-/home/kyra/Major Project/maskscoringrcnn/maskrcnn_benchmark/csrc/cuda/nms.cu
+/content/maskscoringrcnn/maskrcnn_benchmark/csrc/vision.cpp
+/content/maskscoringrcnn/maskrcnn_benchmark/csrc/cpu/ROIAlign_cpu.cpp
+/content/maskscoringrcnn/maskrcnn_benchmark/csrc/cpu/nms_cpu.cpp
+/content/maskscoringrcnn/maskrcnn_benchmark/csrc/cuda/ROIAlign_cuda.cu
+/content/maskscoringrcnn/maskrcnn_benchmark/csrc/cuda/ROIPool_cuda.cu
+/content/maskscoringrcnn/maskrcnn_benchmark/csrc/cuda/nms.cu
 maskrcnn_benchmark.egg-info/PKG-INFO
 maskrcnn_benchmark.egg-info/SOURCES.txt
 maskrcnn_benchmark.egg-info/dependency_links.txt
-maskrcnn_benchmark.egg-info/requires.txt
 maskrcnn_benchmark.egg-info/top_level.txt
 maskrcnn_benchmark/config/defaults.py
 maskrcnn_benchmark/config/paths_catalog.py
