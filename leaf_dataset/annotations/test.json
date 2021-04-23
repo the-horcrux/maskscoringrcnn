@@ -1,1 +1,55 @@
-{"info":{"year":2021,"version":"1.0","description":"VIA project exported to COCO format using VGG Image Annotator (http://www.robots.ox.ac.uk/~vgg/software/via/)","contributor":"","url":"http://www.robots.ox.ac.uk/~vgg/software/via/","date_created":"Wed Apr 21 2021 14:49:02 GMT+0530 (India Standard Time)"},"images": [{"license": 0,"file_name": "Apple_Scab_22.jpg","height": 256,"width": 256,"id": 22},{"license": 0,"file_name": "Apple_Scab_23.jpg","height": 256,"width": 256,"id": 23}],"licenses":[{"id":0,"name":"Unknown License","url":""}],"categories":[{"supercategory":"plant","id":1,"name":"Apple"},{"supercategory":"plant","id":2,"name":"Grape"},{"supercategory":"plant","id":3,"name":"Tomato"},{"supercategory":"plant","id":4,"name":"Corn"}]}
+{
+    "info": {
+        "year": 2021,
+        "version": "1.0",
+        "description": "VIA project exported to COCO format using VGG Image Annotator (http://www.robots.ox.ac.uk/~vgg/software/via/)",
+        "contributor": "",
+        "url": "http://www.robots.ox.ac.uk/~vgg/software/via/",
+        "date_created": "Wed Apr 21 2021 14:49:02 GMT+0530 (India Standard Time)"
+    },
+    "images": [
+        {
+            "license": 0,
+            "file_name": "Apple_Scab_0.jpg",
+            "height": 256,
+            "width": 256,
+            "id": 1
+        },
+        {
+            "license": 0,
+            "file_name": "Apple_Scab_1.jpg",
+            "height": 256,
+            "width": 256,
+            "id": 2
+        }
+    ],
+    "licenses": [
+        {
+            "id": 0,
+            "name": "Unknown License",
+            "url": ""
+        }
+    ],
+    "categories": [
+        {
+            "supercategory": "plant",
+            "id": 1,
+            "name": "Apple"
+        },
+        {
+            "supercategory": "plant",
+            "id": 2,
+            "name": "Grape"
+        },
+        {
+            "supercategory": "plant",
+            "id": 3,
+            "name": "Tomato"
+        },
+        {
+            "supercategory": "plant",
+            "id": 4,
+            "name": "Corn"
+        }
+    ]
+}
